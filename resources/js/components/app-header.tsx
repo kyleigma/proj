@@ -23,7 +23,7 @@ const mainNavItems: NavItem[] = [
     },
     {
         title: 'Page',
-        url: '/page',
+        url: '/table',
         icon: Layers2,
     },
 ];

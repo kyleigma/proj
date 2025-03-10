@@ -2,36 +2,9 @@ import { NavFooter } from '@/components/nav-footer';
 import { NavMain } from '@/components/nav-main';
 import { NavUser } from '@/components/nav-user';
 import { Sidebar, SidebarContent, SidebarFooter, SidebarHeader, SidebarMenu, SidebarMenuButton, SidebarMenuItem } from '@/components/ui/sidebar';
-import { type NavItem } from '@/types';
+import { mainNavItems, footerNavItems } from '@/config/navigation';
 import { Link } from '@inertiajs/react';
-import * as LucideIcons from 'lucide-react';
 import AppLogo from './app-logo';
-
-const mainNavItems: NavItem[] = [
-    {
-        title: 'Dashboard',
-        url: '/dashboard',
-        icon: LucideIcons.LayoutGrid,
-    },
-    {
-        title: 'Page',
-        url: '/page',
-        icon: LucideIcons.Layers2,
-    },
-];
-
-const footerNavItems: NavItem[] = [
-    {
-        title: 'Repository',
-        url: 'https://github.com/laravel/react-starter-kit',
-        icon: LucideIcons.Folder,
-    },
-    {
-        title: 'Documentation',
-        url: 'https://laravel.com/docs/starter-kits',
-        icon: LucideIcons.BookOpen,
-    },
-];
 
 export function AppSidebar() {
     return (
