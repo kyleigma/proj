@@ -1,5 +1,5 @@
 import { type NavItem } from '@/types';
-import { LayoutGrid, Layers2, Folder, BookOpen, Table2 } from 'lucide-react';
+import { LayoutGrid, Folder, BookOpen, Table2 } from 'lucide-react';
 
 export const mainNavItems: NavItem[] = [
     {
@@ -8,8 +8,8 @@ export const mainNavItems: NavItem[] = [
         icon: LayoutGrid,
     },
     {
-        title: 'Table',
-        url: '/table',
+        title: 'Events',
+        url: '/events-table',
         icon: Table2,
     },
 ];

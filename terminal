@@ -1,0 +1,1 @@
+php artisan migrate --path=database/migrations/2025_03_11_030509_create_events_table.php
